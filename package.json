@@ -1,0 +1,23 @@
+{
+  "name": "leng-memo-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "grammy": "^1.38.4",
+    "node-telegram-bot-api": "^0.66.0",
+    "openai": "^6.14.0",
+    "telegram-bot-markdown": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
